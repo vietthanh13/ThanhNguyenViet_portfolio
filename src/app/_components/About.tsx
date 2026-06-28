@@ -6,7 +6,7 @@ export default function About() {
           About Me
         </h2>
         <p className="text-gray-700 mb-6 text-justify max-w-3xl leading-relaxed">
-          I am a Test Engineer with 3+ years of experience in SaaS testing,
+          I am a Test Engineer with 4+ years of experience in SaaS testing,
           specializing in automation, process optimization, and seamless
           integration of testing into development. I help teams enhance software
           quality by leveraging automation, optimizing processes, and fostering

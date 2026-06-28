@@ -20,7 +20,7 @@ const playfair = Playfair_Display({
 export const metadata: Metadata = {
   title: "Nguyen Viet Thanh | Test Engineer",
   description:
-    "Test Engineer with 3+ years of experience in SaaS testing, specializing in automation, process optimization, and CI/CD integration.",
+    "Test Engineer with 4+ years of experience in SaaS testing, specializing in automation, process optimization, and CI/CD integration.",
 };
 
 export default function RootLayout({
@@ -32,8 +32,9 @@ export default function RootLayout({
     <html
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} ${playfair.variable} scroll-smooth`}
+      suppressHydrationWarning
     >
-      <body className="min-h-screen flex flex-col">{children}</body>
+      <body className="min-h-screen flex flex-col" suppressHydrationWarning>{children}</body>
     </html>
   );
 }
